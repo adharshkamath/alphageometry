@@ -16,7 +16,7 @@ translated_imo_2005_p5__issue
 a b c = triangle a b c; d = eqdistance d a b c; e = on_line e b c; f = on_line f a d, eqdistance f d e b; p = on_line p a c, on_line p b d; q = on_line q e f, on_line q b d; r = on_line r e f, on_line r a c; o1 = circle o1 a p d; o2 = circle o2 b p c; m = on_circle m o1 p, on_circle m o2 p ? cyclic p q r m
 translated_imo_2007_p4
 a b c = triangle a b c; o = circle o a b c; r = on_circle r o a, on_bline r a b; l = midpoint l c a; k = midpoint k c b; p = on_line p o k, on_line p c r; q = on_line q o l, on_line q c r; l1 = foot l1 l c r; k1 = foot k1 k c r ? eqratio k k1 l l1 r q r p
-translated_imo_2008_p1a
+translated_imo_2008_p1a__issue
 a b c = triangle a b c; h = orthocenter h a b c; d = midpoint d b c; e = midpoint e a c; f = midpoint f a b; a1 = on_circle a1 d h, on_line a1 b c; a2 = on_circle a2 d h, on_line a2 b c; b1 = on_circle b1 e h, on_line b1 c a; b2 = on_circle b2 e h, on_line b2 c a; c1 = on_circle c1 f h, on_line c1 a b; c2 = on_circle c2 f h, on_line c2 a b ? cyclic c1 c2 b1 b2
 translated_imo_2008_p1b__issue
 a b c = triangle a b c; h = orthocenter h a b c; d = midpoint d b c; e = midpoint e a c; f = midpoint f a b; a1 = on_circle a1 d h, on_line a1 b c; a2 = on_circle a2 d h, on_line a2 b c; b1 = on_circle b1 e h, on_line b1 c a; b2 = on_circle b2 e h, on_line b2 c a; c1 = on_circle c1 f h, on_line c1 a b; c2 = on_circle c2 f h, on_line c2 a b ? cyclic c1 c2 b1 a1
