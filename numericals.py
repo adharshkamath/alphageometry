@@ -1235,7 +1235,8 @@ def draw(
     ymax = max([p.num.y for p in points])
     plt.margins((xmax - xmin) * 0.1, (ymax - ymin) * 0.1)
 
-  plt.show(block=block)
+  # plt.show(block=block)
+  plt.savefig(save_to, bbox_inches='tight', pad_inches=0.1)
 
 
 def close_enough(a: float, b: float, tol: float = 1e-12) -> bool:
