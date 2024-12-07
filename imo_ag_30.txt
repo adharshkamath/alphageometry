@@ -56,5 +56,5 @@ translated_imo_2020_p1
 p a b = triangle p a b; x = angle_bisector p b a; y = angle_bisector p a b; z = on_aline z a p a b x; t = on_aline t p a p a z; d = on_aline d p t p b a, on_line a z; u = on_aline u b p b a y; v = on_aline v p b p b u; c = on_aline c p v p a b, on_line b u; o = angle_bisector a d p, angle_bisector p c b ? cong o a o b
 translated_imo_2021_p3
 a b c = triangle; d = angle_bisector b a c; e = on_aline d a d c b, on_line a c; f = on_aline d a d b c, on_line a b; x = on_bline b c, on_line a c; o1 = circle a d c; o2 = circle e x d; y = on_line e f, on_line b c ? coll o1 o2 y
-translated_imo_2022_p4
+translated_imo_2022_p4__issue
 b c = segment; d = free; e = eqdistance d b c; t = on_bline b d, on_bline c e; a = eqangle2 b t e; p = on_line a b, on_line c d; q = on_line a b, on_line c t; r = on_line a e, on_line c d; s = on_line a e, on_line d t ? cyclic p q r s
